@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "buildRule": "tsc custom-ts-rules/*.ts --lib es6 --outDir build",
+    "build": "tsc custom-ts-rules/*.ts --lib es6 --outDir build",
     "test": "jest"
   },
   "author": "",
